@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>savanna-bites| Good Food, Good Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <a href="#home" class="logo">Savanna-bites</a>
+    <nav aria-label="main navigation">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+</header>
+<main>
+<section id="home" class="Mitch">
+    <p class="eyebrow">WELCOME TO SAVANNA-BITES
+    </p>
+    <h1>Good food.<br>Good company.</h1>
+    <p>Discover delicious meals made for sharing.</p>
+    <a href="#menu" class="btn">Eplore our menu</a>
+</section>
+<section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <p>Fresh flavours, made with care.</p>
+    <div class="menu-grid">
+        <article class="menu-card">
+            <img src="images/meal-one.jpg" alt="Grilled chicken with vegetables">
+            <h3>Grilled Chicken</h3>
+            <p>Served with seasonal vegetables.</p>
+            <p class="price">KSH 655</p>
+            <button class="order-btn" onclick="orderMeal('Grilled Chicken', 655)">Order Now</button>
+
+        </article>
+        <article class="menu-card">
+            <img src="images/meal-two.jpg" alt="Freshly prepared pasta">
+            <h3>House Pasta</h3>
+            <p> comforting pasta dish.</p>
+            <p class="price">KSH 525</p>
+            <button class="order-btn" onclick="orderMeal('House Pasta', 525)">Order Now</button>
+        </article>
+        <article class="menu-card">
+            <img src="images/meal-three.jpg" alt="Fresh garden salad">
+            <h3>Garden Salad</h3>
+            <p>A fresh and colourful favourite.</p>
+            <p class="price">KSH 245</p>
+            <button class="order-btn" onclick="orderMeal('Garden Salad', 245)">Order Meal</button>
+        </article>
+    </div>
+</section>
+<section id="order-summary">
+    <h2>Your Order</h2>
+    <div id="order-items">
+        <p>Your order is empty.</p>
+    </div>
+    <h3>Total: KSH <span id="total-amount">0</span></h3>
+    <button id="clear-order">Clear Order</button>
+</section>
+<section id="about" class="section about">
+    <h2>Our story</h2>
+    <p>Savanna-bites is a fictional restaurant created to demonstrate how a business can present it's food,
+        atmosphere and service online.
+    </p>
+</section>
+<section id="contact" class="Lihanda">
+    <h2>Visit Us</h2>
+    <p>📍Location: Nakuru-Mau road,Egerton University.</p>
+    <p>Opening hours: 24/7 Open.</p>
+    <a class="btn" href="https://wa.me/+254746787162">
+        Enquire on whatsapp
+    </a>
+    <p class="notice">You can reach us through our email, lihandamitchelle4@gmail.com
+        or via whatsapp.
+    </p>
+
+</section>
+
+</main>
+<footer>
+    <p>&copy; 2026 Savanna-bites. Demo website.</p>
+</footer>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
